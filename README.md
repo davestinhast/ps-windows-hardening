@@ -45,11 +45,11 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### disable-services.ps1
 
-Deshabilita servicios que no necesitás y que son un riesgo:
+Deshabilita servicios que no necesitas y que representan un riesgo:
 
 - Telnet, SNMP, Registro Remoto — acceso externo innecesario
 - UPnP / SSDP — descubrimiento de red, útil para atacantes
-- Xbox Live services — si es un servidor, para qué los querés
+- Xbox Live services — si es un servidor, para qué los quieres
 - DiagTrack — telemetría de Microsoft
 
 **Uso:**

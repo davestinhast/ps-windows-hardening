@@ -1,6 +1,6 @@
 #Requires -RunAsAdministrator
 # disable-services.ps1 — Deshabilita servicios de Windows que son un riesgo de seguridad
-# o que simplemente no necesitás en un entorno controlado
+# o que simplemente no necesitas en un entorno controlado
 
 $ServiciosPeligrosos = @(
     @{ Name = "RemoteRegistry";   Display = "Registro remoto" },
